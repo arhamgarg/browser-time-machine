@@ -1,0 +1,24 @@
+[
+  { "era": "1993-1996", "title": "Yahoo! Directory (1994)", "file": "yahoo-1994.html", "description": "One of the first web directories" },
+  { "era": "1993-1996", "title": "Netscape.com (1996)", "file": "netscape-1996.html", "description": "The home of Netscape Navigator" },
+  
+  { "era": "1997-2001", "title": "GeoCities (1997)", "file": "geocities-1997.html", "description": "Popular web hosting service" },
+  { "era": "1997-2001", "title": "Amazon (1999)", "file": "amazon-1999.html", "description": "Early e-commerce site" },
+  { "era": "1997-2001", "title": "Google (1998)", "file": "google-1998.html", "description": "Simple search engine" },
+  
+  { "era": "2002-2007", "title": "MySpace (2005)", "file": "myspace-2005.html", "description": "Popular social network" },
+  { "era": "2002-2007", "title": "YouTube (2005)", "file": "youtube-2005.html", "description": "Video sharing platform launch" },
+  { "era": "2002-2007", "title": "Wikipedia (2003)", "file": "wikipedia-2003.html", "description": "Early encyclopedia design" },
+  
+  { "era": "2008-2012", "title": "Facebook (2010)", "file": "facebook-2010.html", "description": "Pre-Timeline design" },
+  { "era": "2008-2012", "title": "Twitter (2011)", "file": "twitter-2011.html", "description": "Early microblogging" },
+  { "era": "2008-2012", "title": "Gmail (2009)", "file": "gmail-2009.html", "description": "Web-based email client" },
+  
+  { "era": "2013-2018", "title": "Instagram (2016)", "file": "instagram-2016.html", "description": "Photo sharing" },
+  { "era": "2013-2018", "title": "Netflix (2015)", "file": "netflix-2015.html", "description": "Streaming service" },
+  { "era": "2013-2018", "title": "Responsive News (2017)", "file": "responsive-2017.html", "description": "Mobile-first design" },
+  
+  { "era": "2019-2025", "title": "Modern SPA (2023)", "file": "spa-2023.html", "description": "Single page application" },
+  { "era": "2019-2025", "title": "AI Assistant (2024)", "file": "ai-2024.html", "description": "Modern AI interface" },
+  { "era": "2019-2025", "title": "WebGL Demo (2022)", "file": "webgl-2022.html", "description": "3D graphics in browser" }
+]

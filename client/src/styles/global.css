@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.timeline-btn {
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.timeline-btn:hover {
+    background-color: #666;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+.controls select {
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.loading {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 50px;
+}
+
+.tech-specs {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,428 @@
+.firefox-browser {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #e4e4e4;
+  border: 1px solid #999;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  font-family: "Lucida Grande", Arial, sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+.firefox-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #e8e8e8, #d8d8d8);
+  padding: 4px 8px;
+  border-bottom: 1px solid #bbb;
+  border-radius: 5px 5px 0 0;
+}
+
+.firefox-title {
+  font-size: 13px;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.firefox-window-controls {
+  display: flex;
+}
+
+.firefox-control {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.firefox-control.minimize {
+  background-color: #ffbd44;
+  color: #996413;
+}
+
+.firefox-control.maximize {
+  background-color: #00ca56;
+  color: #005622;
+}
+
+.firefox-control.close {
+  background-color: #ff605c;
+  color: #930005;
+}
+
+.firefox-menubar {
+  display: flex;
+  padding: 2px 8px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.firefox-menu-item {
+  font-size: 12px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.firefox-menu-item:hover {
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
+.firefox-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.firefox-button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 5px;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.firefox-button:hover {
+  background-color: #e0e0e0;
+  border-color: #ccc;
+}
+
+.firefox-url-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 3px;
+  height: 26px;
+}
+
+.firefox-url-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.firefox-favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.firefox-go-button {
+  background-color: #e9e9e9;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 3px;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.firefox-tab-bar {
+  display: flex;
+  background: linear-gradient(to bottom, #e8e8e8, #d8d8d8);
+  padding: 5px 8px 0;
+  border-bottom: 1px solid #bbb;
+}
+
+.firefox-tab {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #e0e0e0, #d0d0d0);
+  border: 1px solid #bbb;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  padding: 3px 8px;
+  margin-right: 2px;
+  font-size: 12px;
+  height: 24px;
+  min-width: 100px;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.firefox-tab.active {
+  background: linear-gradient(to bottom, #f0f0f0, #e8e8e8);
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: -1px;
+}
+
+.firefox-tab-favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.firefox-tab-title {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.firefox-tab-close {
+  margin-left: 5px;
+  color: #999;
+  font-size: 14px;
+}
+
+.firefox-tab-close:hover {
+  color: #333;
+}
+
+.firefox-new-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #666;
+  font-size: 18px;
+  font-weight: bold;
+  height: 24px;
+  width: 24px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.firefox-content {
+  flex-grow: 1;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.firefox-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.firefox-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+}
+
+.firefox-throbber {
+  width: 32px;
+  height: 32px;
+  background-color: #f0f0f0;
+  background-image: url('/assets/firefox-throbber.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.firefox-loading-text {
+  font-size: 13px;
+  color: #666;
+}
+
+.firefox-statusbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 8px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  font-size: 11px;
+  height: 20px;
+}
+
+.firefox-status-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #666;
+}
+
+.firefox-security {
+  display: flex;
+  align-items: center;
+}
+
+.firefox-security-icon {
+  width: 16px;
+  height: 16px;
+  background-color: #f0f0f0;
+  background-image: url('/assets/firefox-security.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.firefox-detail-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9f9fa;
+  border: 1px solid #b1b1b3;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  width: 380px;
+  max-width: 90%;
+  max-height: 80vh;
+  padding: 20px;
+  overflow-y: auto;
+  display: none;
+  font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.firefox-detail-card.active {
+  display: block;
+  animation: firefox-card-appear 0.2s ease;
+}
+
+@keyframes firefox-card-appear {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -45%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.firefox-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d7d7db;
+}
+
+.firefox-card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0c0c0d;
+}
+
+.firefox-card-close {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.firefox-card-close:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #404040;
+}
+
+.firefox-card-content {
+  font-size: 13px;
+  color: #4a4a4f;
+  line-height: 1.4;
+}
+
+.firefox-card-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 16px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.firefox-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #d7d7db;
+}
+
+.firefox-card-button {
+  background-color: #0060df;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.firefox-card-button:hover {
+  background-color: #003eaa;
+}
+
+.firefox-card-button.secondary {
+  background-color: #f0f0f4;
+  color: #0060df;
+  border: 1px solid #cfd9e6;
+}
+
+.firefox-card-button.secondary:hover {
+  background-color: #e0e0e6;
+}
+
+.firefox-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1500;
+  display: none;
+}
+
+.firefox-backdrop.active {
+  display: block;
+  animation: firefox-backdrop-appear 0.2s ease;
+}
+
+@keyframes firefox-backdrop-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

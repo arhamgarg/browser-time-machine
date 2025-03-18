@@ -1,0 +1,62 @@
+[
+  {
+    "era": "1993-1996",
+    "html": "HTML 2.0, <blink>, limited CSS",
+    "screenSize": "640x480",
+    "speed": "14.4k - 56k",
+    "browserShare": "Netscape 75%, IE 20%",
+    "webFeatures": "Static pages, simple forms, table-based layouts",
+    "colorDepth": "256 colors",
+    "plugins": "Early Java applets"
+  },
+  {
+    "era": "1997-2001",
+    "html": "HTML 4.0, <marquee>, CSS1",
+    "screenSize": "800x600",
+    "speed": "56k - DSL",
+    "browserShare": "IE 60%, Netscape 25%",
+    "webFeatures": "Frames, DHTML, Flash animations",
+    "colorDepth": "16-bit colors",
+    "plugins": "Flash, Java, ActiveX"
+  },
+  {
+    "era": "2002-2007",
+    "html": "XHTML, CSS2, early Ajax",
+    "screenSize": "1024x768",
+    "speed": "DSL - Broadband (1-2 Mbps)",
+    "browserShare": "IE 70%, Firefox 20%",
+    "webFeatures": "Web 2.0 interfaces, blogs, early social networks",
+    "colorDepth": "24-bit colors",
+    "plugins": "Flash dominance, PDF readers"
+  },
+  {
+    "era": "2008-2012",
+    "html": "HTML5 intro, CSS3, JavaScript frameworks",
+    "screenSize": "1280x800",
+    "speed": "Broadband (5-10 Mbps)",
+    "browserShare": "Chrome 30%, IE 30%, Firefox 25%",
+    "webFeatures": "Video/audio elements, mobile-optimized sites",
+    "colorDepth": "32-bit colors",
+    "plugins": "Flash decline, HTML5 rise"
+  },
+  {
+    "era": "2013-2018",
+    "html": "Advanced HTML5, CSS Flexbox/Grid",
+    "screenSize": "Multiple (responsive design)",
+    "speed": "LTE, fiber (10-100 Mbps)",
+    "browserShare": "Chrome 60%, Safari 15%, Firefox 10%",
+    "webFeatures": "Responsive layouts, progressive web apps",
+    "colorDepth": "True color with alpha",
+    "plugins": "Native APIs replacing plugins"
+  },
+  {
+    "era": "2019-2025",
+    "html": "Modern HTML5, WebAssembly, PWA",
+    "screenSize": "4K displays, mobile-first",
+    "speed": "5G, fiber (100+ Mbps)",
+    "browserShare": "Chrome 65%, Safari 20%, Firefox 5%",
+    "webFeatures": "CSS variables, dark mode, WebGL2",
+    "colorDepth": "HDR support",
+    "plugins": "Web Components, browser APIs"
+  }
+]

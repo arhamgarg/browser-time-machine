@@ -1,0 +1,8 @@
+[
+  { "id": "1993-1996", "name": "Early Web", "browser": "Netscape Navigator" },
+  { "id": "1997-2001", "name": "Browser Wars", "browser": "Internet Explorer" },
+  { "id": "2002-2007", "name": "Web 2.0", "browser": "Firefox" },
+  { "id": "2008-2012", "name": "Modern Web Beginnings", "browser": "Chrome" },
+  { "id": "2013-2018", "name": "Mobile Revolution", "browser": "Mobile" },
+  { "id": "2019-2025", "name": "Contemporary Web", "browser": "Modern" }
+]
